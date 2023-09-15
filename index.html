@@ -1,0 +1,2756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英雄联盟全新官方网站-腾讯游戏</title>
+    <!-- 引入站点图标 -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- 引入CSS样式 -->
+    <link rel="stylesheet" href="CSS/css.css">
+    <!-- 引入公共样式 -->
+    <link rel="stylesheet" href="css/comm.css">
+    <!-- 引入所有js样式 -->
+    <script src="js/index.js"></script>
+    <script src="js/main.js"></script>
+    <!-- 引入动画样式 -->
+    <script src="js/animate.js"></script>
+
+</head>
+<!-- 还需要写的都手风琴，返回顶部-->
+
+<body>
+    <!-- 官网页头 -->
+    <div class="comm-head">
+        <div class="head-normal">
+            <!-- logo -->
+            <a href="javacript:;" title="英雄联盟官网" class="logo">
+                <img src="images/logo-public.png" alt="英雄联盟">
+            </a>
+            <!-- 官网导航 -->
+            <ul class="head-nav">
+                <li>
+                    <a href="javascript:;" title="游戏资料">
+                        <span class="head-nav-title">游戏资料</span>
+                        <span class="head-nav-subtitle">GAME INFO</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" title="商城/合作">
+                        <span class="head-nav-title">商城/合作</span>
+                        <span class="head-nav-subtitle">STORE</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" title="社区互动">
+                        <span class="head-nav-title">社区互动</span>
+                        <span class="head-nav-subtitle">COMMUNITY</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" title="赛事官网">
+                        <span class="head-nav-title">赛事官网</span>
+                        <span class="head-nav-subtitle">ESPORTS</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" title="自助系统">
+                        <span class="head-nav-title">自助系统</span>
+                        <span class="head-nav-subtitle">SYSTEM</span>
+                    </a>
+                </li>
+
+            </ul>
+            <!-- 玩家信息 -->
+            <div class="head-userinfo-normal">
+                <div class="head-userinfo-avatar">
+                    <img src="images/default.png" alt="玩家头像">
+                    <span></span>
+                    <a href="javacript:;" title="个人中心" class="herf-mask"></a>
+                </div>
+                <div class="head-userinfo-brief">
+                    <p class="unlogin">
+                        亲爱的召唤师，欢迎
+                        <a href="javacript:;" id="link">登录</a>
+                    </p>
+                </div>
+                <!-- 登录 -->
+                <div class="head-login-hover">
+                    <div class="unlogin">
+                        <p class="p1">
+                            登录并且绑定大区后才可以查看您的具体信息哦<br>
+                            (包括战绩、资产、声望）
+                        </p>
+                        <p class="p2">
+                            官网个人信息显示略有延迟，请以游戏数据为准
+                        </p>
+                    </div>
+                    <a href="javasript:;" class="href-gouserhome">
+                        进入个人中心
+                        <i class="more-arrow"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- 掌盟图标 -->
+            <span class="head-app-normal">
+                <a href="javacript:;" class="comm-icon-phone"></a>
+                <!-- 掌盟二维码 -->
+                <div class="head-app-hover">
+                    <i class="head-zm-qrcode">
+                        <img src="images/app.jpg" alt="掌盟App二维码">
+                    </i>
+                    <p class="p1">扫码下载掌上英雄联盟</p>
+                    <img class="polo" src="images/polo.gif" alt="魄罗">
+                </div>
+            </span>
+            <!-- 搜索按钮 -->
+            <a href="javascript:;" title="搜索" class="head-search-btn">
+                <i class="comm-icon-search"></i>
+            </a>
+        </div>
+        <!-- 搜索 -->
+        <div class="search-hover-wrap">
+            <div class="search-hover-inner">
+                <a href="javascript:;" class="btn-search" title="点击搜索">
+                    <i class="comm-icon-search"></i>
+                </a>
+                <input type="text" class="input-search" placeholder="搜索 lol.qq.com" autocomplete="off">
+                <a href="javascript:;" class="btn-close-search" title="关闭搜索">
+                    <i class="icon-xx-1"></i>
+                </a>
+            </div>
+        </div>
+        <!-- 导航栏子菜单 -->
+        <div class="head-nav-sub">
+            <div class="head-nav-sub-inner">
+                <ul id="J_headNav">
+                    <li>
+                        <a href="javascript:;" class="head-nav-sub-a">游戏下载</a>
+                        <a href="javascript:;" class="head-nav-sub-a">新手指引</a>
+                        <a href="javascript:;" class="head-nav-sub-a">资料库</a>
+                        <a href="javascript:;" class="head-nav-sub-a">
+                            <i class="icon-new"></i>
+                            云顶之弈
+                        </a>
+                        <a href="javascript:;" class="head-nav-sub-a">
+                            <i class="icon-new"></i>
+                            攻略中心
+                        </a>
+                        <a href="javascript:;" class="head-nav-sub-a">开发者基地</a>
+                        <a href=" javascript:;" class="head-nav-sub-a">海克斯战利品库</a>
+                        <a href=" javascript:;" class="head-nav-sub-a">英雄联盟宇宙</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="head-nav-sub-a">点券充值</a>
+                        <a href="javascript:;" class="head-nav-sub-a">
+                            <i class="icon-hot"></i>
+                            道聚城
+                        </a>
+                        <a href="javascript:;" class="head-nav-sub-a">周边商城</a>
+                        <a href="javascript:;" class="head-nav-sub-a">LOL桌游</a>
+                        <a href="javascript:;" class="head-nav-sub-a">网吧特权</a>
+                        <a href=" javascript:;" class="head-nav-sub-a">电竞小说</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="head-nav-sub-a">视频中心</a>
+                        <a href="javascript:;" class="head-nav-sub-a">官方微信</a>
+                        <a href="javascript:;" class="head-nav-sub-a">官方微博</a>
+                        <a href="javascript:;" class="head-nav-sub-a">玩家创作馆</a>
+                        <a href=" javascript:;" class="head-nav-sub-a">玩家服务</a>
+                        <a href="javascript:;" class="head-nav-sub-a">
+                            <i class="icon-new"></i>
+                            LOL组队专区
+                        </a>
+                        <a href="javascript:;" class="head-nav-sub-a">
+                            <i class="icon-new"></i>
+                            作者入驻计划
+                        </a>
+                        <a href="javascript:;" class="head-nav-sub-a">
+                            <i class="icon-new"></i>
+                            英雄联盟素材库
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="head-nav-sub-a">LPL职业联赛</a>
+                        <a href="javascript:;" class="head-nav-sub-a">LDL发展联赛</a>
+                        <a href="javascript:;" class="head-nav-sub-a">全球总决赛</a>
+                        <a href="javascript:;" class="head-nav-sub-a">城市英雄争霸赛</a>
+                        <a href=" javascript:;" class="head-nav-sub-a">全明星赛</a>
+                        <a href="javascript:;" class="head-nav-sub-a">
+                            <i class="icon-hot"></i>
+                            德玛西亚杯
+                        </a>
+                        <a href=" javascript:;" class="head-nav-sub-a">全国高校联赛</a>
+                        <a href="javascript:;" class="head-nav-sub-a">
+                            <i class="icon-new"></i>
+                            云顶之弈公开赛
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="head-nav-sub-a">
+                            <i class="icon-hot"></i>
+                            图标自助领取
+                        </a>
+                        <a href="javascript:;" class="head-nav-sub-a">
+                            <i class="icon-new"></i>
+                            转区系统
+                        </a>
+                        <a href="javascript:;" class="head-nav-sub-a">
+                            <i class="icon-hot"></i>
+                            封号查询
+                        </a>
+                        <a href="javascript:;" class="head-nav-sub-a">账号注销</a>
+                        <a href="javascript:;" class="head-nav-sub-a">
+                            <i class="icon-new"></i>
+                            信誉分系统
+                        </a>
+                        <a href="javascript:;" class="head-nav-sub-a">服务器状态查询</a>
+                        <a href="javascript:;" class="head-nav-sub-a">秩序殿堂</a>
+                        <a href="javascript:;" class="head-nav-sub-a">峡谷之巅</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 登录页面 -->
+    <div class="login-header">
+        <div id="login" class="login">
+            <div id="title" class="login-title">登录会员
+                <span><a id="closeBtn" href="javascript:void(0);" class="close-login">关闭</a></span>
+            </div>
+            <div class="login-input-content">
+                <div class="login-input">
+                    <label>用户名：</label>
+                    <input type="text" placeholder="请输入用户名" name="info[username]" id="username" class="list-input">
+                </div>
+                <div class="login-input">
+                    <label>登录密码：</label>
+                    <input type="password" placeholder="请输入登录密码" name="info[password]" id="password" class="list-input">
+                </div>
+            </div>
+            <div id="loginBtn" class="login-button"><a href="javascript:void(0);" id="login-button-submit">登录会员</a>
+            </div>
+        </div>
+        <!-- 遮盖层 -->
+        <div id="bg" class="login-bg"></div>
+    </div>
+
+    <!-- 视频界面 -->
+    <div class="skin-video">
+        <video src="video/幽梦玫瑰 .mp4" controls="controls" autoplay="autoplay" muted="muted">
+            <source type="video/mp4">
+        </video>
+        <span class="btn-close"><img src="images/close.png" alt=""></span>
+    </div>
+    <!-- 头部广告 -->
+    <div class="comm-topact big">
+        <img src="images/top00.jpg" alt="" class="topact-big-img">
+        <img src="images/top01.jpg" alt="" class="topact-small-img">
+        <div class="dark-mask"></div>
+        <div class="comm-topact-inner">
+            <a class="top-act-link middle" href="javascript:;">查看详情</a>
+            <div class="top-version">
+                当前游戏版本：
+                <em>Ver 12.1</em>
+                <a href="javascript:;" class="top-version-link">版本详情</a>
+            </div>
+        </div>
+    </div>
+    <!-- 首页内容 -->
+    <div class="g-zoombox">
+        <!-- part1 -->
+        <div class="g-index-wrap1">
+            <!-- 首页滚动图 -->
+            <div class="m-promo">
+                <!-- 左侧按钮 -->
+                <a href="javascript:;" class="arrow-l">
+                    &lt;
+                </a>
+                <!-- 右侧按钮 -->
+                <a href="javascript:;" class="arrow-r">&gt;</a>
+                <ul class="promo-img-list">
+                    <li><a href="javascript:;"><img src="images/promo01.jpeg" alt="2022 新赛季新征程"></a></li>
+                    <li><a href="javascript:;"><img src="images/promo02.jpeg" alt="2022 星穹秘宝"></a></li>
+                    <li><a href="javascript:;"><img src="images/promo03.jpeg" alt="永恒之森再临峡谷"></a></li>
+                    <li><a href="javascript:;"><img src="images/promo04.jpeg" alt="荣誉之路限时开放"></a></li>
+                    <li><a href="javascript:;"><img src="images/promo05.jpeg" alt="云顶宝典 科技宝库"></a></li>
+                </ul>
+                <div class="promo-title-list">
+                    <span class="title">2022 新赛季新征程</span>
+                    <span class="title">星穹秘宝</span>
+                    <span class="title">永恒之森再临峡谷</span>
+                    <span class="title">荣誉之路限时开放</span>
+                    <span class="title">云顶宝典 科技宝库</span>
+                </div>
+            </div>
+            <!-- 新闻公告 -->
+            <div class="m-news">
+                <!-- 新闻公告标题 -->
+                <div class="part-top-tab">
+                    <ul class="part-tab-title">
+                        <li>综合</li>
+                        <li>公告</li>
+                        <li>赛事</li>
+                        <li>攻略</li>
+                        <li>社区</li>
+                    </ul>
+                </div>
+                <!-- 新闻公告内容 -->
+                <div class="new-tab-content">
+                    <ul class="new-tab-content-ul content-show">
+                        <li class="first">
+                            <a href="javascript:;" class="item-href">活动预告：精选皮肤限时5折</a>
+                        </li>
+                        <li class="newsitem news">
+                            <span class="item-type">新闻</span>
+                            <a href="javascript:;" class="item-href">【云顶新年庆】喜庆同欢</a>
+                            <span class="item-time">01-10</span>
+                        </li>
+                        <li class="newsitem inform">
+                            <span class="item-type">公告</span>
+                            <a href="javascript:;" class="item-href">转区系统暂停服务的通知</a>
+                            <span class="item-time">01-10</span>
+                        </li>
+                        <li class="newsitem inform">
+                            <span class="item-type">新闻</span>
+                            <a href="javascript:;" class="item-href">虎年限定皮肤同款手办，提莫携八宝盒提前来拜年了！</a>
+                            <span class="item-time">01-09</span>
+                        </li>
+                        <li class="newsitem inform">
+                            <span class="item-type">公告</span>
+                            <a href="javascript:;" class="item-href">英雄更新票选</a>
+                            <span class="item-time">01-08</span>
+                        </li>
+                        <li class="newsitem inform">
+                            <span class="item-type">公告</span>
+                            <a href="javascript:;" class="item-href">开发者日志：紫色宝石和至臻点即将更新</a>
+                            <span class="item-time">01-08</span>
+                        </li>
+                        <li class="newsitem inform">
+                            <span class="item-type">公告</span>
+                            <a href="javascript:;" class="item-href">开发者：乌迪尔视觉玩法更新近况</a>
+                            <span class="item-time">01-08</span>
+                        </li>
+                    </ul>
+                    <ul class="new-tab-content-ul content-close">
+                        <li class="first">
+                            <a href="javascript:;" class="item-href">2022年1月13日 部分大区例行停机维护公告</a>
+                        </li>
+                        <li class="newsitem news">
+                            <span class="item-type">新闻</span>
+                            <a href="javascript:;" class="item-href">活动预告：精选皮肤限时5折</a>
+                            <span class="item-time">01-10</span>
+                        </li>
+                        <li class="newsitem inform">
+                            <span class="item-type">公告</span>
+                            <a href="javascript:;" class="item-href">转区系统暂停服务的通知</a>
+                            <span class="item-time">01-10</span>
+                        </li>
+                        <li class="newsitem inform">
+                            <span class="item-type">公告</span>
+                            <a href="javascript:;" class="item-href">2022年1月11日 部分大区例行停机维护公告</a>
+                            <span class="item-time">01-09</span>
+                        </li>
+                        <li class="newsitem inform">
+                            <span class="item-type">公告</span>
+                            <a href="javascript:;" class="item-href">英雄更新票选</a>
+                            <span class="item-time">01-08</span>
+                        </li>
+                        <li class="newsitem inform">
+                            <span class="item-type">公告</span>
+                            <a href="javascript:;" class="item-href">开发者日志：紫色宝石和至臻点即将更新</a>
+                            <span class="item-time">01-08</span>
+                        </li>
+                        <li class="newsitem inform">
+                            <span class="item-type">公告</span>
+                            <a href="javascript:;" class="item-href">开发者：乌迪尔视觉玩法更新近况</a>
+                            <span class="item-time">01-08</span>
+                        </li>
+                    </ul>
+                    <ul class="new-tab-content-ul content-close">
+                        <li class="first">
+                            <a href="javascript:;" class="item-href">TOP5：Viper百步索敌致命低语</a>
+                        </li>
+                        <li class="newsitem event">
+                            <span class="item-type">赛事</span>
+                            <a href="javascript:;" class="item-href">LPL春季赛1月12日首发名单，Leyan野区遇Tian</a>
+                            <span class="item-time">01-12</span>
+                        </li>
+                        <li class="newsitem amusement">
+                            <span class="item-type">视频</span>
+                            <a href="javascript:;" class="item-href">TOP5：Beichuan天破断骨神威猛龙踢</a>
+                            <span class="item-time">01-11</span>
+                        </li>
+                        <li class="newsitem amusement">
+                            <span class="item-type">视频</span>
+                            <a href="javascript:;" class="item-href">英雄麦克疯：翔哥指挥全场FPX首战告捷</a>
+                            <span class="item-time">01-11</span>
+                        </li>
+                        <li class="newsitem amusement">
+                            <span class="item-type">视频</span>
+                            <a href="javascript:;" class="item-href">2022LPL春季赛宣传片：风起破苍穹</a>
+                            <span class="item-time">01-10</span>
+                        </li>
+                        <li class="newsitem event">
+                            <span class="item-type">赛事</span>
+                            <a href="javascript:;" class="item-href">LPL春季赛1月10日首发名单，FPX、RNG争夺开门红！</a>
+                            <span class="item-time">01-10</span>
+                        </li>
+                        <li class="newsitem amusement">
+                            <span class="item-type">视频</span>
+                            <a href="javascript:;" class="item-href">LPL品牌焕新幕后篇</a>
+                            <span class="item-time">01-09</span>
+                        </li>
+                    </ul>
+                    <ul class="new-tab-content-ul content-close">
+                        <li class="first">
+                            <a href="javascript:;" class="item-href">【媛妹】教你男刀最全的线杀公式</a>
+                        </li>
+                        <li class="newsitem tutorial">
+                            <span class="item-type">教学</span>
+                            <a href="javascript:;" class="item-href">Ac教你玩游戏-永远的下路主角，伊泽瑞尔双修流走上版本T1</a>
+                            <span class="item-time">01-10</span>
+                        </li>
+                        <li class="newsitem amusement">
+                            <span class="item-type">视频</span>
+                            <a href="javascript:;" class="item-href">12.1韩服套路总结，炼金罐刀妹，中单先攻AP老鼠</a>
+                            <span class="item-time">01-10</span>
+                        </li>
+                        <li class="newsitem amusement">
+                            <span class="item-type">视频</span>
+                            <a href="javascript:;" class="item-href">新英雄祖安花火泽丽超细解析，不会A人的射手，无限移速不是梦</a>
+                            <span class="item-time">01-09</span>
+                        </li>
+                        <li class="newsitem tutorial">
+                            <span class="item-type">教学</span>
+                            <a href="javascript:;" class="item-href">峡谷剑闻：如何正确理解S12赛季，又如何正确看待新版TP？</a>
+                            <span class="item-time">01-08</span>
+                        </li>
+                        <li class="newsitem amusement">
+                            <span class="item-type">视频</span>
+                            <a href="javascript:;" class="item-href">12.1T1英雄推荐：拒绝花里胡哨！新赛季这些英雄冲分效率高</a>
+                            <span class="item-time">01-07</span>
+                        </li>
+                        <li class="newsitem amusement">
+                            <span class="item-type">视频</span>
+                            <a href="javascript:;" class="item-href">S12新赛季研究：强调对线的时代回归，新传送改版解析</a>
+                            <span class="item-time">01-06</span>
+                        </li>
+                    </ul>
+                    <ul class="new-tab-content-ul content-close">
+                        <li class="first">
+                            <a href="javascript:;" class="item-href">【像素联盟】虎年限定虎虎生威像素头像</a>
+                        </li>
+                        <li class="newsitem news">
+                            <span class="item-type">娱乐</span>
+                            <a href="javascript:;" class="item-href">青花瓷系列皮肤有怎么样的背景故事和小彩蛋？</a>
+                            <span class="item-time">01-11</span>
+                        </li>
+                        <li class="newsitem amusement">
+                            <span class="item-type">视频</span>
+                            <a href="javascript:;" class="item-href">24款辅助的装备背景！帝国指令和斯维因有关？</a>
+                            <span class="item-time">01-11</span>
+                        </li>
+                        <li class="newsitem news">
+                            <span class="item-type">娱乐</span>
+                            <a href="javascript:;" class="item-href">《简笔画联盟》恰饺子？那必须是我啊！</a>
+                            <span class="item-time">01-10</span>
+                        </li>
+                        <li class="newsitem tutorial">
+                            <span class="item-type">教学</span>
+                            <a href="javascript:;" class="item-href">青花瓷皮肤彩蛋一图介绍！</a>
+                            <span class="item-time">01-10</span>
+                        </li>
+                        <li class="newsitem amusement">
+                            <span class="item-type">视频</span>
+                            <a href="javascript:;" class="item-href">【蛇婆娘】LOL铁血猎手奈德丽仿妆高清相机版</a>
+                            <span class="item-time">01-10</span>
+                        </li>
+                        <li class="newsitem news">
+                            <span class="item-type">娱乐</span>
+                            <a href="javascript:;" class="item-href">【像素联盟】青花瓷像素头像</a>
+                            <span class="item-time">01-10</span>
+                        </li>
+                    </ul>
+                    <a href="javascript:;" class="btn-morenews">
+                        <span class="c1">阅读更多</span>
+                        <span class="c2">最新资讯</span>
+                        <i class="more-arrow"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- 热门活动 -->
+            <div class="m-act">
+                <div class="part-top-tab">
+                    <h2 class="part-h2-title">热门活动</h2>
+                    <ul class="part-tab-title">
+                        <li class="selected">正在进行</li>
+                        <li>商城特惠</li>
+                        <li>长期活动</li>
+                    </ul>
+                    <a href="javascript:;" class="herf-more">更多
+                        <i class="more-arrow"></i>
+                    </a>
+                </div>
+                <div class="m-act-list">
+                    <!-- 正在进行 -->
+                    <ul class="act-show">
+                        <li class="act-item">
+                            <img src="images/hot01.jpg" alt="2022 新赛季新征程">
+                            <p>2022 新赛季新征程</p>
+                            <a href="javascript:;" class="overtime">31天后结束</a>
+                            <i class="icon-new-1"></i>
+                            <div class="innerhover-border">
+                                <i class="hover-border-1"></i>
+                                <div class="innerhover-border-inner">
+                                    <h4 class="p1">2022 新赛季新征程</h4>
+                                    <p class="p2">自选游戏目标 解锁皮肤宝箱等丰富好礼</p>
+                                    <p class="p2">2022-01-07 - 2022-02-13</p>
+                                </div>
+                            </div>
+                            <a class="herf-mask" title="2022 新赛季新征程" href="javascript:;"></a>
+                        </li>
+                        <li class="act-item">
+                            <img src="images/hot02.jpg" alt="2022 新赛季新征程">
+                            <p>永恒之森再临峡谷</p>
+                            <a href="javascript:;" class="overtime">8天后结束</a>
+                            <i class="icon-new-1"></i>
+                            <div class="innerhover-border">
+                                <i class="hover-border-1"></i>
+                                <div class="innerhover-border-inner">
+                                    <h4 class="p1">永恒之森再临峡谷</h4>
+                                    <p class="p2">猛兽出没 敬请注意</p>
+                                    <p class="p2">2022-01-07 - 2022-01-21</p>
+                                </div>
+                            </div>
+                            <a class="herf-mask" title="永恒之森再临峡谷" href="javascript:;"></a>
+                        </li>
+                        <li class="act-item">
+                            <img src="images/hot03.jpg" alt="2022 新赛季新征程">
+                            <p>至臻终章2021</p>
+                            <a href="javascript:;" class="overtime">61天后结束</a>
+
+                            <div class="innerhover-border">
+                                <i class="hover-border-1"></i>
+                                <div class="innerhover-border-inner">
+                                    <h4 class="p1">至臻终章2021</h4>
+                                    <p class="p2">购杰作宝箱礼包赠至臻点（2020）</p>
+                                    <p class="p2">2022-01-01 - 2022-03-15</p>
+                                </div>
+                            </div>
+                            <a class="herf-mask" title="至臻终章2021" href="javascript:;"></a>
+                        </li>
+                        <li class="act-item">
+                            <img src="images/hot04.jpg" alt="2022 新赛季新征程">
+                            <p>星穹秘宝</p>
+                            <a href="javascript:;" class="overtime">7天后结束</a>
+                            <div class="innerhover-border">
+                                <i class="hover-border-1"></i>
+                                <div class="innerhover-border-inner">
+                                    <h4 class="p1">星穹秘宝</h4>
+                                    <p class="p2">购买期限守卫赠钻石宝箱</p>
+                                    <p class="p2">2022-01-01 - 2022-01-20</p>
+                                </div>
+                            </div>
+                            <a class="herf-mask" title="星穹秘宝" href="javascript:;"></a>
+                        </li>
+                    </ul>
+                    <!-- 商城特惠 -->
+                    <ul class="act-close">
+                        <li class="act-item">
+                            <img src="images/hot05.jpg" alt="2022 新赛季新征程">
+                            <p>周边春节限定福袋 限量开售</p>
+                            <a href="javascript:;" class="overtime">长期活动</a>
+                            <i class="icon-new-1"></i>
+                            <div class="innerhover-border">
+                                <i class="hover-border-1"></i>
+                                <div class="innerhover-border-inner">
+                                    <h4 class="p1">周边春节限定福袋 限量开售</h4>
+                                    <p class="p2">限时重磅开启！必得限定专属新品！</p>
+                                    <p class="p2">开启时间: 2022-01-10</p>
+                                </div>
+                            </div>
+                            <a class="herf-mask" title="周边春节限定福袋 限量开售" href="javascript:;"></a>
+                        </li>
+                        <li class="act-item">
+                            <img src="images/hot06.jpg" alt="2022 新赛季新征程">
+                            <p>约德尔人手办盲盒</p>
+                            <a href="javascript:;" class="overtime">长期活动</a>
+
+                            <div class="innerhover-border">
+                                <i class="hover-border-1"></i>
+                                <div class="innerhover-border-inner">
+                                    <h4 class="p1">约德尔人手办盲盒</h4>
+                                    <p class="p2">小英雄，大梦想！约德尔人潮玩手办盲盒登场！</p>
+                                    <p class="p2">开启时间: 2021-12-10</p>
+                                </div>
+                            </div>
+                            <a class="herf-mask" title="约德尔人手办盲盒" href="javascript:;"></a>
+                        </li>
+                        <li class="act-item">
+                            <img src="images/hot07.jpg" alt="2022 新赛季新征程">
+                            <p>EDG冠军周边预定</p>
+                            <a href="javascript:;" class="overtime">17天后结束</a>
+
+                            <div class="innerhover-border">
+                                <i class="hover-border-1"></i>
+                                <div class="innerhover-border-inner">
+                                    <h4 class="p1">EDG冠军周边预定</h4>
+                                    <p class="p2">2021全球总决赛冠军EDG战队定制周边预定开启</p>
+                                    <p class="p2">2021-12-29 - 2022-01-30</p>
+                                </div>
+                            </div>
+                            <a class="herf-mask" title="EDG冠军周边预定" href="javascript:;"></a>
+                        </li>
+                        <li class="act-item">
+                            <img src="images/hot08.jpg" alt="2022 新赛季新征程">
+                            <p>精选皮肤限时五折</p>
+                            <a href="javascript:;" class="overtime">6天后结束</a>
+                            <i class="icon-new-1"></i>
+                            <div class="innerhover-border">
+                                <i class="hover-border-1"></i>
+
+                                <div class="innerhover-border-inner">
+                                    <h4 class="p1">精选皮肤限时五折</h4>
+                                    <p class="p2">虎虎生威闹新年</p>
+                                    <p class="p2">2022-01-12 - 2022-01-19</p>
+                                </div>
+                            </div>
+                            <a class="herf-mask" title="精选皮肤限时五折" href="javascript:;"></a>
+                        </li>
+                    </ul>
+                    <!-- 长期活动 -->
+                    <ul class="act-close">
+                        <li class="act-item">
+                            <img src="images/hot09.jpg" alt="2022 新赛季新征程">
+                            <p>英雄联盟排位FAQ</p>
+                            <a href="javascript:;" class="overtime">长期活动</a>
+                            <div class="innerhover-border">
+                                <i class="hover-border-1"></i>
+                                <div class="innerhover-border-inner">
+                                    <h4 class="p1">英雄联盟排位FAQ</h4>
+                                    <p class="p2">了解排位赛上分的一切</p>
+                                    <p class="p2">开启时间: 2021-12-24</p>
+                                </div>
+                            </div>
+                            <a class="herf-mask" title="英雄联盟排位FAQ" href="javascript:;"></a>
+                        </li>
+                        <li class="act-item">
+                            <img src="images/hot10.jpg" alt="2022 新赛季新征程">
+                            <p>EDG夺冠纪念图标表情领取</p>
+                            <a href="javascript:;" class="overtime">长期活动</a>
+                            <div class="innerhover-border">
+                                <i class="hover-border-1"></i>
+                                <div class="innerhover-border-inner">
+                                    <h4 class="p1">EDG夺冠纪念图标表情领取</h4>
+                                    <p class="p2">在游戏中赢得对局领取纪念图标表情</p>
+                                    <p class="p2">开启时间: 2021-11-11</p>
+                                </div>
+                            </div>
+                            <a class="herf-mask" title="EDG夺冠纪念图标表情领取" href="javascript:;"></a>
+                        </li>
+                        <li class="act-item">
+                            <img src="images/hot11.jpg" alt="2022 新赛季新征程">
+                            <p>云顶之弈 小小英雄</p>
+                            <a href="javascript:;" class="overtime">长期活动</a>
+
+                            <div class="innerhover-border">
+                                <i class="hover-border-1"></i>
+                                <div class="innerhover-border-inner">
+                                    <h4 class="p1">云顶之弈 小小英雄</h4>
+                                    <p class="p2">比尔鸭，黏黏及皮克蜥已为弈士做好演奏准备</p>
+                                    <p class="p2">开启时间: 2021-11-04</p>
+                                </div>
+                            </div>
+                            <a class="herf-mask" title="云顶之弈 小小英雄" href="javascript:;"></a>
+                        </li>
+                        <li class="act-item">
+                            <img src="images/hot12.jpg" alt="2022 新赛季新征程">
+                            <p>小小艾克，小小金克丝与小小蔚</p>
+                            <a href="javascript:;" class="overtime">长期活动</a>
+                            <div class="innerhover-border">
+                                <i class="hover-border-1"></i>
+                                <div class="innerhover-border-inner">
+                                    <h4 class="p1">小小艾克，小小金克丝与小小蔚</h4>
+                                    <p class="p2">首个英雄级小小英雄现已登录云顶之弈</p>
+                                    <p class="p2">开启时间: 2021-11-04</p>
+                                </div>
+                            </div>
+                            <a class="herf-mask" title="小小艾克，小小金克丝与小小蔚" href="javascript:;"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 游戏功能导航 -->
+            <div class="m-gamefunc-nav">
+                <ul class="slide-nav-ul">
+                    <li class="herf-download" title="下载游戏">
+                        <video class="side-down-video" autoplay loop muted>
+                            <source src="video/btn-download.mpeg" type="">
+                        </video>
+                        <a href="javascript:;" class="herf-mask">
+                            下载游戏
+                        </a>
+                    </li>
+                    <li class="btn-flashmen p1" title="新手必备">
+                        新手必备
+                        <div class="inner-hover">
+                            <a href="Javascript:;" title="新手指引">
+                                <i class="icon-zhiyin"></i>
+                                指引
+                            </a>
+                            <a href="Javascript:;" title="新手礼包">
+                                <i class="icon-gift"></i>
+                                礼包
+                            </a>
+                        </div>
+                    </li>
+                    <li class="p2" title="领取中心">
+                        <a href="Javascript:;" class="herf-type-0">领取中心</a>
+                    </li>
+                    <li class="p3" title="在线客服">
+                        <a href="Javascript:;" class="herf-type-1">
+                            <i class="icon-kh"></i>
+                            在线客服
+                        </a>
+                    </li>
+                    <li class="p3" title="秩序殿堂">
+                        <a href="Javascript:;" class="herf-type-1">
+                            <i class="icon-fhcx"></i>
+                            秩序殿堂
+                        </a>
+                    </li>
+                    <li class="p3" title="游戏资料">
+                        <a href="Javascript:;" class="herf-type-1">
+                            <i class="icon-yxzl"></i>
+                            游戏资料
+                        </a>
+                    </li>
+                    <li class="p4" title="峡谷之巅">
+                        <a href="Javascript:;" class="herf-type-1">
+                            <i class="icon-xgzd"></i>
+                            峡谷之巅
+                        </a>
+                    </li>
+                    <li class="p3" title="云顶之弈">
+                        <a href="Javascript:;" class="herf-type-1">
+                            <i class="icon-tft"></i>
+                            云顶之弈
+                            <b class="icon-new-1"></b>
+                        </a>
+                    </li>
+                    <li class="p3" title="攻略中心">
+                        <a href="Javascript:;" class="herf-type-1">
+                            <i class="icon-101"></i>
+                            攻略中心
+                        </a>
+                    </li>
+                    <li class="p3" title="LOL宇宙">
+                        <a href="Javascript:;" class="herf-type-1">
+                            <i class="icon-yz"></i>
+                            LOL宇宙
+                        </a>
+                    </li>
+                    <li class="p4" title="微信绑定">
+                        <a href="Javascript:;" class="herf-type-1">
+                            <i class="icon-wxbd"></i>
+                            微信绑定
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 新英雄新皮肤 -->
+            <div class="m-new-championskin indexpart-show">
+                <!-- 新英雄 -->
+                <div class="m-new-champion-one">
+                    <img src="images/wgs.jpg" alt="愁云使者 薇古丝专题站现已上线！">
+                    <i class="pic-mask-0"></i>
+                    <a href="javascript:;" class="tip-championskin">英雄更新</a>
+                    <p class="intro-championskin">新英雄薇古丝降临峡谷</p>
+                    <p class="name-championskin">
+                        <a href="javascript:;">愁云使者 薇古丝专题站现已上线！</a>
+                    </p>
+                    <!-- 英雄详情hover -->
+                    <div class="inner-hover">
+                        <i class="border"></i>
+                        <p class="p1">愁云使者 薇古丝专题站现已上线！</p>
+                        <div class="inner-hover-href">查看详情
+                            <i class="more-arrow-2"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- 新皮肤 -->
+                <div class="m-new-skin-one">
+                    <img src="images/0 (1).jpg" alt="水晶玫瑰 幽梦玫瑰">
+                    <i class="pic-mask-0"></i>
+                    <a href="javascript:;" class="tip-championskin">新皮肤</a>
+                    <p class="intro-championskin">全新限定皮肤限时甜蜜上线 致独一无二的你</p>
+                    <p class="name-championskin">
+                        <a href="javascript:;">水晶玫瑰 幽梦玫瑰</a>
+                    </p>
+                    <div class="btn-play-1">
+                        <i></i>
+                        <a></a>
+                    </div>
+                </div>
+            </div>
+            <!-- 版本导航 -->
+            <div class="m-version-nav indexpart-show">
+                <!-- 版本更新详情 -->
+                <div class="new-version">
+                    <img src="images/bb1.jpg" alt="版本更新" class="version_img">
+                    <div class="innerhover-out">
+                        <img src="images/bb1.jpg" alt="版本更新">
+                        <div class="hover-video"></div>
+                        <p class="p1">版本更新</p>
+                        <p class="p2">游戏版本12.2</p>
+                        <a href="javascript:;" title="版本更新" class="a1">查看详情</a>
+                    </div>
+                </div>
+                <!-- 开发者基地 -->
+                <div class="club-developer">
+                    <img src="images/bb2.png" alt="英雄剖析：泽丽">
+                    <div class="innerhover-border">
+                        <i class="hover-border-2"></i>
+                        <div class="innerhover-border-inner">
+                            <h4 class="p1">英雄剖析：泽丽</h4>
+                            <p class="p2">整个祖安和她的邻里乡亲，都将在她动摇的时候搀扶她。</p>
+                        </div>
+                    </div>
+                    <a href="javascript:;" title="英雄剖析：泽丽" class="herf-mask"></a>
+                </div>
+                <!-- 新周边 -->
+                <div class="new-model">
+                    <img src="images/bb3.jpg" alt="《英雄联盟：双城之战》动画官网正式上线！">
+                    <a href="javascript:;" class="herf-mask"></a>
+                </div>
+                <!-- 周免 -->
+                <div class="week-free-champion">
+                    <a href="javascript:;" class="week-free-a">
+                        <i class="inline-icon-0-left"></i>
+                        周免
+                        <i class="more-arrow-1"></i>
+                        <i class="inline-icon-0-right"></i>
+                    </a>
+                    <!-- 周免hover -->
+                    <div class="week-free-hover">
+                        <i class="arrow"></i>
+                        <ul>
+                            <li class="week-free-item">
+                                <img src="images/free1.png" alt="">
+                                <a href="javascript:;" class="herf-mask" title="加里奥"></a>
+                            </li>
+                            <li class="week-free-item">
+                                <img src="images/free2.png" alt="厄加特">
+                                <a href="javascript:;" class="herf-mask" title="厄加特"></a>
+                            </li>
+                            <li class="week-free-item">
+                                <img src="images/free3.png" alt="瑞兹">
+                                <a href="javascript:;" class="herf-mask" title="瑞兹"></a>
+                            </li>
+                            <li class="week-free-item">
+                                <img src="images/free4.png" alt="提莫">
+                                <a href="javascript:;" class="herf-mask" title="提莫"></a>
+                            </li>
+                            <li class="week-free-item">
+                                <img src="images/free5.png" alt="艾希">
+                                <a href="javascript:;" class="herf-mask" title="艾希"></a>
+                            </li>
+                            <li class="week-free-item">
+                                <img src="images/free6.png" alt="基兰">
+                                <a href="javascript:;" class="herf-mask" title="基兰"></a>
+                            </li>
+                            <li class="week-free-item">
+                                <img src="images/free7.png" alt="娑娜">
+                                <a href="javascript:;" class="herf-mask" title="娑娜"></a>
+                            </li>
+                            <li class="week-free-item">
+                                <img src="images/free8.png" alt="塔里克">
+                                <a href="javascript:;" class="herf-mask" title="塔里克"></a>
+                            </li>
+                            <li class="week-free-item">
+                                <img src="images/free9.png" alt="黑默丁格">
+                                <a href="javascript:;" class="herf-mask" title="黑默丁格"></a>
+                            </li>
+                            <li class="week-free-item">
+                                <img src="images/free10.png" alt="阿卡丽">
+                                <a href="javascript:;" class="herf-mask" title="阿卡丽"></a>
+                            </li>
+                            <li class="week-free-item">
+                                <img src="images/free11.png" alt="凯南">
+                                <a href="javascript:;" class="herf-mask" title="凯南"></a>
+                            </li>
+                            <li class="week-free-item">
+                                <img src="images/free12.png" alt="盖伦">
+                                <a href="javascript:;" class="herf-mask" title="盖伦"></a>
+                            </li>
+                            <li class="week-free-item">
+                                <img src="images/free13.png" alt="菲兹">
+                                <a href="javascript:;" class="herf-mask" title="菲兹"></a>
+                            </li>
+                            <li class="week-free-item">
+                                <img src="images/free14.png" alt="沃利贝尔">
+                                <a href="javascript:;" class="herf-mask" title="沃利贝尔"></a>
+                            </li>
+                            <li class="week-free-item">
+                                <img src="images/free15.png" alt="菲奥娜">
+                                <a href="javascript:;" class="herf-mask" title="菲奥娜"></a>
+                            </li>
+                            <li class="week-free-item">
+                                <img src="images/free16.png" alt="吉格斯">
+                                <a href="javascript:;" class="herf-mask" title="吉格斯"></a>
+                            </li>
+                            <li class="week-free-item">
+                                <img src="images/free17.png" alt="德莱文">
+                                <a href="javascript:;" class="herf-mask" title="德莱文"></a>
+                            </li>
+                            <li class="week-free-item">
+                                <img src="images/free18.png" alt="卡蜜尔">
+                                <a href="javascript:;" class="herf-mask" title="卡蜜尔"></a>
+                            </li>
+                            <li class="week-free-item">
+                                <img src="images/free19.png" alt="金克丝">
+                                <a href="javascript:;" class="herf-mask" title="金克丝"></a>
+                            </li>
+                            <li class="week-free-item">
+                                <img src="images/free20.png" alt="克烈">
+                                <a href="javascript:;" class="herf-mask" title="克烈"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 更多皮肤 -->
+            <div class="m-more-skin">
+                <div class="content">
+                    <ul>
+                        <li class="more-skin-item" style="margin-right:12px">
+                            <img src="images/more01.jpg" alt="">
+                            <p class="skinname"><a href="javascript:;" class="a2">昼之奢华，夜之优雅，欢迎来到权力与财富的世界</a></p>
+                            <a href="javascript:;" class="herf-mask"></a>
+                        </li>
+                        <li class="more-skin-item">
+                            <img src="images/more02.jpg" alt="">
+                            <p class="skinname"><a href="javascript:;" class="a2">神龙尊者</a></p>
+                            <a href="javascript:;" class="herf-mask"></a>
+                        </li>
+                        <li class="more-skin-item">
+                            <img src="images/more03.jpg" alt="">
+                            <p class="skinname"><a href="javascript:;" class="a2">黎明与黑夜</a></p>
+                            <a href="javascript:;" class="herf-mask"></a>
+                        </li>
+                        <li class="more-skin-item">
+                            <img src="images/more04.jpg" alt="">
+                            <p class="skinname"><a href="javascript:;" class="a2">英雄砺十年 联盟神凰现</a></p>
+                            <a href="javascript:;" class="herf-mask"></a>
+                        </li>
+                        <li class="more-skin-item">
+                            <img src="images/more05.jpg" alt="">
+                            <p class="skinname"><a href="javascript:;" class="a2">拥抱神力 叱咤魔城</a></p>
+                            <a href="javascript:;" class="herf-mask"></a>
+                        </li>
+                        <li class="more-skin-item">
+                            <img src="images/more06.jpg" alt="">
+                            <p class="skinname"><a href="javascript:;" class="a2">魔女摇曳 魅惑众生</a></p>
+                            <a href="javascript:;" class="herf-mask"></a>
+                        </li>
+                        <li class="more-skin-item">
+                            <img src="images/more07.jpg" alt="">
+                            <p class="skinname"><a href="javascript:;" class="a2">光明哨兵</a></p>
+                            <a href="javascript:;" class="herf-mask"></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- part2 -->
+        <div class="g-wrap-vp">
+            <div class="g-wrap">
+                <!-- 最新视频 -->
+                <div class="m-fresh-video">
+                    <!-- 模块标题 -->
+                    <div class="part-top-tab">
+                        <h2 class="part-h2-title">最新视频</h2>
+                        <ul class="part-tab-title">
+                            <li class="selected">推荐</li>
+                            <li>官方</li>
+                            <li>娱乐</li>
+                            <li>赛事</li>
+                            <li>云顶之弈
+                                <i class="icon-new-1"></i>
+                            </li>
+                            <li>教学</li>
+                        </ul>
+                        <a class="herf-more">更多
+                            <i class="more-arrow"></i>
+                        </a>
+                    </div>
+                    <!-- 模块内容 -->
+                    <!-- 推荐 -->
+                    <ul class="fresh-video-content act-show">
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                                <span class="btn-play-1">
+                                    <i></i>
+                                    <a></a>
+                                </span>
+                                <div class="video-pre-wrap">
+                                    <img src="images/hp01.jpg" alt="" class="video-pre-img">
+                                    <span class="video-pre-bg"></span>
+                                    <span class="video-pre-bar">
+                                        <i></i>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">1超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask02.jpg" alt="文森特3打5绝境翻盘！对手土龙魂都输了" class="video-cover">
+                                <span class="btn-play-1">
+                                    <i></i>
+                                    <a></a>
+                                </span>
+                                <div class="video-pre-wrap">
+                                    <img src="images/hp01.jpg" alt="" class="video-pre-img">
+                                    <span class="video-pre-bg"></span>
+                                    <span class="video-pre-bar">
+                                        <i></i>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <a class="video-length">01:01</a>
+                            <p class="name-video">
+                                <a href="javascript:;">文森特3打5绝境翻盘！对手土龙魂都输了</a>
+                            </p>
+                            <a href="" class="play-times">849次播放</a>
+                            <a href="" class="update-time">9小时前</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask03.png" alt="[LCS春季赛W1D1]【GG vs.C9】全场集锦" class="video-cover">
+                                <span class="btn-play-1">
+                                    <i></i>
+                                    <a></a>
+                                </span>
+                                <div class="video-pre-wrap">
+                                    <img src="images/hp01.jpg" alt="" class="video-pre-img">
+                                    <span class="video-pre-bg"></span>
+                                    <span class="video-pre-bar">
+                                        <i></i>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <a class="video-length">08:04</a>
+                            <p class="name-video">
+                                <a href="javascript:;">[LCS春季赛W1D1]【GG vs.C9】全场集锦</a>
+                            </p>
+                            <a href="" class="play-times">830次播放</a>
+                            <a href="" class="update-time">11小时前</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask04.jpg" alt="UZI试玩新AD泽丽，韩服20杀疯狂操作" class="video-cover">
+                                <span class="btn-play-1">
+                                    <i></i>
+                                    <a></a>
+                                </span>
+                                <div class="video-pre-wrap">
+                                    <img src="images/hp01.jpg" alt="" class="video-pre-img">
+                                    <span class="video-pre-bg"></span>
+                                    <span class="video-pre-bar">
+                                        <i></i>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <a class="video-length">06:20</a>
+                            <p class="name-video">
+                                <a href="javascript:;">UZI试玩新AD泽丽，韩服20杀疯狂操作</a>
+                            </p>
+                            <a href="" class="play-times">4509次播放</a>
+                            <a href="" class="update-time">2022-02-06</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask05.jpg" alt="新英雄在惩戒面前就是渣渣" class="video-cover">
+                                <span class="btn-play-1">
+                                    <i></i>
+                                    <a></a>
+                                </span>
+                                <div class="video-pre-wrap">
+                                    <img src="images/hp01.jpg" alt="" class="video-pre-img">
+                                    <span class="video-pre-bg"></span>
+                                    <span class="video-pre-bar">
+                                        <i></i>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <a class="video-length">00:56</a>
+                            <p class="name-video">
+                                <a href="javascript:;">新英雄在惩戒面前就是渣渣</a>
+                            </p>
+                            <a href="" class="play-times">4393次播放</a>
+                            <a href="" class="update-time">2022-02-06</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask06.png" alt="新英雄泽丽赛场首秀 LEC战队集体刮痧？LCS揭幕战五杀！" class="video-cover">
+                                <span class="btn-play-1">
+                                    <i></i>
+                                    <a></a>
+                                </span>
+                                <div class="video-pre-wrap">
+                                    <img src="images/hp01.jpg" alt="" class="video-pre-img">
+                                    <span class="video-pre-bg"></span>
+                                    <span class="video-pre-bar">
+                                        <i></i>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <a class="video-length">01:49</a>
+                            <p class="name-video">
+                                <a href="javascript:;">新英雄泽丽赛场首秀 LEC战队集体刮痧？LCS揭幕战五杀！</a>
+                            </p>
+                            <a href="" class="play-times">898次播放</a>
+                            <a href="" class="update-time">11小时前</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask07.jpg" alt="[LCS春季赛W1D1]【EG vs.TSM】全场集锦" class="video-cover">
+                                <span class="btn-play-1">
+                                    <i></i>
+                                    <a></a>
+                                </span>
+                                <div class="video-pre-wrap">
+                                    <img src="images/hp01.jpg" alt="" class="video-pre-img">
+                                    <span class="video-pre-bg"></span>
+                                    <span class="video-pre-bar">
+                                        <i></i>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <a class="video-length">10:10</a>
+                            <p class="name-video">
+                                <a href="javascript:;">[LCS春季赛W1D1]【EG vs.TSM】全场集锦</a>
+                            </p>
+                            <a href="" class="play-times">903次播放</a>
+                            <a href="" class="update-time">10小时前</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask08.png" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                                <span class="btn-play-1">
+                                    <i></i>
+                                    <a></a>
+                                </span>
+                                <div class="video-pre-wrap">
+                                    <img src="images/hp01.jpg" alt="" class="video-pre-img">
+                                    <span class="video-pre-bg"></span>
+                                    <span class="video-pre-bar">
+                                        <i></i>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">1超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                    </ul>
+                    <!-- 官方 -->
+                    <ul class="fresh-video-content act-close">
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">2超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                    </ul>
+                    <!-- 娱乐 -->
+                    <ul class="fresh-video-content act-close">
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">3超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                    </ul>
+                    <!-- 赛事 -->
+                    <ul class="fresh-video-content act-close">
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">4超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                    </ul>
+                    <!-- 云顶之弈 -->
+                    <ul class="fresh-video-content act-close">
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">5超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                    </ul>
+                    <!-- 教学 -->
+                    <ul class="fresh-video-content act-close">
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">6超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                        <li class="video-item">
+                            <!-- 视频图片 -->
+                            <div class="mask-img">
+                                <img src="images/mask01.jpg" alt="超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸" class="video-cover">
+                            </div>
+                            <a class="video-length">08:31</a>
+                            <p class="name-video">
+                                <a href="javascript:;">超神解说：神技一Q千血，铁铠冥魂铁男，2招秒杀伤害爆炸</a>
+                            </p>
+                            <a href="" class="play-times">5225次播放</a>
+                            <a href="" class="update-time">2022-02-05</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 热门专辑 -->
+                <div class="m-hotprogram">
+                    <!-- 模块标题 -->
+                    <div class="part-top-tab">
+                        <h2 class="part-h2-title">热门专辑</h2>
+                        <ul class="part-tab-title">
+                            <li class="selected">周一</li>
+                            <li>周二</li>
+                            <li>周三</li>
+                            <li>周四</li>
+                            <li>周五</li>
+                            <li>周六</li>
+                            <li>周日</li>
+                        </ul>
+                    </div>
+                    <!-- 模块内容 -->
+                    <div class="hotprogram-content">
+                        <div class="hotprogram-list-wrap">
+                            <div class="hotprogram-list swiper-container">
+                                <ul class="swiper-wrapper">
+                                    <li class="hotprogram-item">
+                                        <img src="images/program01.png" alt="" class="program-pic">
+                                        <h4 class="name-program">巅峰top5</h4>
+                                        <p class="progress-program">2020-09-18更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">巅峰top5是一档精彩英雄联盟赛事集锦节目，为广大玩家带来每日LPL比赛精彩镜头</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv01.jpg" alt="飞熊TV英雄联盟">
+                                            飞熊TV英雄联盟
+                                        </a>
+                                    </li>
+                                    <li class="hotprogram-item">
+                                        <img src="images/program02.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">小鱼Top5</h4>
+                                        <p class="progress-program">2018-09-11更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">汇集英雄联盟最顶级精彩操作视频。</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv02.jpg" alt="飞熊TV英雄联盟">
+                                            LOL解说小鱼
+                                        </a>
+                                    </li>
+                                    <li class="hotprogram-item">
+                                        <img src="images/program03.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">鹌鹑云顶锦囊</h4>
+                                        <p class="progress-program">2020-06-09更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">7连鸡，吃鸡霸主，云顶吃鸡小王子的吃鸡秘诀，斗帝流、盾法流、东北大乱盾创造者</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv03.jpg" alt="飞熊TV英雄联盟">
+                                            东北大鹌鹑
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="swiper-wrapper ">
+                                    <li class="hotprogram-item">
+                                        <img src="images/program04.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">主播疯人院</h4>
+                                        <p class="progress-program">2022-02-09更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">更多好玩的情景剧和lol主播搞笑翻车操作，更有改编LOL歌曲翻唱环节绝对满足你挑剔的需求</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv04.jpg" alt="暴龙电竞官方号">
+                                            暴龙电竞官方号
+                                        </a>
+                                    </li>
+                                    <li class="hotprogram-item">
+                                        <img src="images/program05.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">虎牙一周秀</h4>
+                                        <p class="progress-program">2021-10-25更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">每周二悄悄更新，更多匪夷所思、令人瞠目结舌的操作等你来发掘。</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv05.png" alt="虎牙直播LOL">
+                                            虎牙直播LOL
+                                        </a>
+                                    </li>
+                                    <li class="hotprogram-item">
+                                        <img src="images/program02.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">小鱼Top5</h4>
+                                        <p class="progress-program">2018-09-11更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">汇集英雄联盟最顶级精彩操作视频。</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv02.jpg" alt="飞熊TV英雄联盟">
+                                            LOL解说小鱼
+                                        </a>
+                                    </li>
+                                    <li class="hotprogram-item">
+                                        <img src="images/program01.png" alt="" class="program-pic">
+                                        <h4 class="name-program">巅峰top5</h4>
+                                        <p class="progress-program">2020-09-18更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">巅峰top5是一档精彩英雄联盟赛事集锦节目，为广大玩家带来每日LPL比赛精彩镜头</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv01.jpg" alt="飞熊TV英雄联盟">
+                                            飞熊TV英雄联盟
+                                        </a>
+                                    </li>
+                                    <li class="hotprogram-item">
+                                        <img src="images/program08.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">小鱼Top5</h4>
+                                        <p class="progress-program">2018-09-11更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">汇集英雄联盟最顶级精彩操作视频。</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv02.jpg" alt="飞熊TV英雄联盟">
+                                            LOL解说小鱼
+                                        </a>
+                                    </li>
+                                    <li class="hotprogram-item">
+                                        <img src="images/program09.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">鹌鹑云顶锦囊</h4>
+                                        <p class="progress-program">2020-06-09更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">7连鸡，吃鸡霸主，云顶吃鸡小王子的吃鸡秘诀，斗帝流、盾法流、东北大乱盾创造者</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv03.jpg" alt="飞熊TV英雄联盟">
+                                            东北大鹌鹑
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="swiper-wrapper ">
+                                    <li class="hotprogram-item">
+                                        <img src="images/program07.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">青铜组的搞笑时刻</h4>
+                                        <p class="progress-program">2022-01-14更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">青铜组选手又出古怪骚操作？让你笑到停不下来！</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv07.jpg" alt="木木不哭官方号">
+                                            木木不哭官方号
+                                        </a>
+                                    </li>
+                                    <li class="hotprogram-item">
+                                        <img src="images/program08.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">起小点TOP10</h4>
+                                        <p class="progress-program">2022-01-28更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">起小点TOP10集合国服/外服一周的精彩操作镜头</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv08.jpg" alt="联盟是大腿">
+                                            联盟是大腿
+                                        </a>
+                                    </li>
+                                    <li class="hotprogram-item">
+                                        <img src="images/program09.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">小鱼Top5</h4>
+                                        <p class="progress-program">2018-09-11更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">汇集英雄联盟最顶级精彩操作视频。</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv02.jpg" alt="飞熊TV英雄联盟">
+                                            LOL解说小鱼
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="swiper-wrapper ">
+                                    <li class="hotprogram-item">
+                                        <img src="images/program11.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">主播 玩脱了</h4>
+                                        <p class="progress-program">2020-08-27更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">每周两更的主播搞笑类节目</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv07.jpg" alt="木木不哭官方号">
+                                            木木不哭官方号
+                                        </a>
+                                    </li>
+                                    <li class="hotprogram-item">
+                                        <img src="images/program02.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">小鱼Top5</h4>
+                                        <p class="progress-program">2018-09-11更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">汇集英雄联盟最顶级精彩操作视频。</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv02.jpg" alt="LOL解说小鱼">
+                                            LOL解说小鱼
+                                        </a>
+                                    </li>
+                                    <li class="hotprogram-item">
+                                        <img src="images/program03.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">鹌鹑云顶锦囊</h4>
+                                        <p class="progress-program">2020-06-09更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">7连鸡，吃鸡霸主，云顶吃鸡小王子的吃鸡秘诀，斗帝流、盾法流、东北大乱盾创造者</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv03.jpg" alt="飞熊TV英雄联盟">
+                                            东北大鹌鹑
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="swiper-wrapper ">
+                                    <li class="hotprogram-item">
+                                        <img src="images/program13.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">Miss排位日记</h4>
+                                        <p class="progress-program">2021-01-28更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">电竞女选手Miss制作的LOL解说视频</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv07.jpg" alt="英雄联盟Miss">
+                                            英雄联盟Miss
+                                        </a>
+                                    </li>
+                                    <li class="hotprogram-item">
+                                        <img src="images/program14.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">主播真会玩</h4>
+                                        <p class="progress-program">2022-02-05更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">主播真会玩，每周五更新！</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv02.jpg" alt="联盟是大腿">
+                                            联盟是大腿
+                                        </a>
+                                    </li>
+                                    <li class="hotprogram-item">
+                                        <img src="images/program15.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">鹌鹑云顶锦囊</h4>
+                                        <p class="progress-program">2020-06-09更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">7连鸡，吃鸡霸主，云顶吃鸡小王子的吃鸡秘诀，斗帝流、盾法流、东北大乱盾创造者</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv03.jpg" alt="飞熊TV英雄联盟">
+                                            东北大鹌鹑
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="swiper-wrapper ">
+                                    <li class="hotprogram-item">
+                                        <img src="images/program16.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">Miss排位日记</h4>
+                                        <p class="progress-program">2021-01-28更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">电竞女选手Miss制作的LOL解说视频</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv07.jpg" alt="英雄联盟Miss">
+                                            英雄联盟Miss
+                                        </a>
+                                    </li>
+                                    <li class="hotprogram-item">
+                                        <img src="images/program17.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">主播真会玩</h4>
+                                        <p class="progress-program">2022-02-05更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">主播真会玩，每周五更新！</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv02.jpg" alt="联盟是大腿">
+                                            联盟是大腿
+                                        </a>
+                                    </li>
+                                    <li class="hotprogram-item">
+                                        <img src="images/program18.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">鹌鹑云顶锦囊</h4>
+                                        <p class="progress-program">2020-06-09更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">7连鸡，吃鸡霸主，云顶吃鸡小王子的吃鸡秘诀，斗帝流、盾法流、东北大乱盾创造者</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv03.jpg" alt="飞熊TV英雄联盟">
+                                            东北大鹌鹑
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="swiper-wrapper ">
+                                    <li class="hotprogram-item">
+                                        <img src="images/program19.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">Miss排位日记</h4>
+                                        <p class="progress-program">2021-01-28更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">电竞女选手Miss制作的LOL解说视频</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv07.jpg" alt="英雄联盟Miss">
+                                            英雄联盟Miss
+                                        </a>
+                                    </li>
+                                    <li class="hotprogram-item">
+                                        <img src="images/program20.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">主播真会玩</h4>
+                                        <p class="progress-program">2022-02-05更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">主播真会玩，每周五更新！</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv02.jpg" alt="联盟是大腿">
+                                            联盟是大腿
+                                        </a>
+                                    </li>
+                                    <li class="hotprogram-item">
+                                        <img src="images/program12.jpg" alt="" class="program-pic">
+                                        <h4 class="name-program">鹌鹑云顶锦囊</h4>
+                                        <p class="progress-program">2020-06-09更新</p>
+                                        <a class="herf-mask"></a>
+                                        <a class="name-progress">7连鸡，吃鸡霸主，云顶吃鸡小王子的吃鸡秘诀，斗帝流、盾法流、东北大乱盾创造者</a>
+                                        <a href="javascript:;" class="author-program">
+                                            <img src="images/tv03.jpg" alt="飞熊TV英雄联盟">
+                                            东北大鹌鹑
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="javascript:;" title="向左滚动" class="hotprogram-list-left"></a>
+                            <a href="javascript:;" title="向右滚动" class="hotprogram-list-right"></a>
+                        </div>
+                        <!-- 浏览更多 -->
+                        <a class="more-hotprogram">
+                            前往视频中心
+                            <i class="more-arrow-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- part3 -->
+        <div class="g-wrap-match">
+            <div class="part-top-tab">
+                <h2 class="part-h2-title">赛事中心</h2>
+                <ul class="part-tab-title">
+                    <li class="selected">春季赛常规赛</li>
+                </ul>
+                <a href="javascript:;" class="toptip-event">2022职业联赛</a>
+                <a href="javascript:;" class="herf-more">更多
+                    <i class="more-arrow"></i>
+                </a>
+            </div>
+            <!-- 赛事中心内容容器 -->
+            <div class="m-events-container">
+                <div class="match-show">
+                    <!-- 赛事类型1 常规赛 -->
+                    <div class="event-type-0 lpl-regular-season template">
+                        <!-- 近期赛程 -->
+                        <div class="recent-gamelist recent-gamelist5">
+                            <div class="recent-gamelist-container swiper-container">
+                                <ul class="swiper-wrapper game-sc">
+                                    <li class="gamelist-item swiper-slide">
+                                        <!-- 直播情况 -->
+                                        <p class="gamelist-item-topbar wait">
+                                            <i></i>
+                                            <span class="span1">未开始</span>
+                                            <span class="span3">15:00</span>
+                                            <span class="span2">2-18</span>
+                                        </p>
+                                        <!-- 战队a -->
+                                        <div class="gamelist-team-a">
+                                            <span><img src="images/RA.png" alt=""></span>
+                                            <a>RA</a>
+                                        </div>
+                                        <!-- 战队b -->
+                                        <div class="gamelist-team-b">
+                                            <span><img src="images/LGD.png" alt=""></span>
+                                            <a>杭州LGD</a>
+                                        </div>
+                                        <!-- 赛局比分 -->
+                                        <span class="gamelist-score">
+                                            <a>0</a>
+                                            <a>:</a>
+                                            <a>0</a>
+                                        </span>
+                                        <!-- 观看直播 -->
+                                        <a class="gamelist-wait">敬请期待</a>
+                                        <!-- 比赛类型 -->
+                                        <p class="p1">2022职业联赛</p>
+                                        <!-- 赛程 -->
+                                        <p class="p2">春季赛常规赛 第五周 BO3</p>
+                                    </li>
+                                    <li class="gamelist-item swiper-slide">
+                                        <!-- 直播情况 -->
+                                        <p class="gamelist-item-topbar wait">
+                                            <i></i>
+                                            <span class="span1">未开始</span>
+                                            <span class="span3">17:00</span>
+                                            <span class="span2">2-18</span>
+                                        </p>
+                                        <!-- 战队a -->
+                                        <div class="gamelist-team-a">
+                                            <span><img src="images/UP.png" alt=""></span>
+                                            <a>UP</a>
+                                        </div>
+                                        <!-- 战队b -->
+                                        <div class="gamelist-team-b">
+                                            <span><img src="images/WBG.png" alt=""></span>
+                                            <a>WBG</a>
+                                        </div>
+                                        <!-- 赛局比分 -->
+                                        <span class="gamelist-score">
+                                            <a>0</a>
+                                            <a>:</a>
+                                            <a>0</a>
+                                        </span>
+                                        <!-- 观看直播 -->
+                                        <a class="gamelist-wait">敬请期待</a>
+                                        <!-- 比赛类型 -->
+                                        <p class="p1">2022职业联赛</p>
+                                        <!-- 赛程 -->
+                                        <p class="p2">春季赛常规赛 第五周 BO3</p>
+                                    </li>
+                                    <li class="gamelist-item swiper-slide">
+                                        <!-- 直播情况 -->
+                                        <p class="gamelist-item-topbar wait">
+                                            <i></i>
+                                            <span class="span1">未开始</span>
+                                            <span class="span3">19:00</span>
+                                            <span class="span2">2-18</span>
+                                        </p>
+                                        <!-- 战队a -->
+                                        <div class="gamelist-team-a">
+                                            <span><img src="images/EDG.png" alt=""></span>
+                                            <a>UP</a>
+                                        </div>
+                                        <!-- 战队b -->
+                                        <div class="gamelist-team-b">
+                                            <span><img src="images/FPX.png" alt=""></span>
+                                            <a>FPX</a>
+                                        </div>
+                                        <!-- 赛局比分 -->
+                                        <span class="gamelist-score">
+                                            <a>0</a>
+                                            <a>:</a>
+                                            <a>0</a>
+                                        </span>
+                                        <!-- 观看直播 -->
+                                        <a class="gamelist-wait">敬请期待</a>
+                                        <!-- 比赛类型 -->
+                                        <p class="p1">2022职业联赛</p>
+                                        <!-- 赛程 -->
+                                        <p class="p2">春季赛常规赛 第五周 BO3</p>
+                                    </li>
+                                    <li class="gamelist-item swiper-slide">
+                                        <!-- 直播情况 -->
+                                        <p class="gamelist-item-topbar wait">
+                                            <i></i>
+                                            <span class="span1">未开始</span>
+                                            <span class="span3">15:00</span>
+                                            <span class="span2">2-19</span>
+                                        </p>
+                                        <!-- 战队a -->
+                                        <div class="gamelist-team-a">
+                                            <span><img src="images/OMG.png" alt=""></span>
+                                            <a>OMG</a>
+                                        </div>
+                                        <!-- 战队b -->
+                                        <div class="gamelist-team-b">
+                                            <span><img src="images/WE.png" alt=""></span>
+                                            <a>西安WE</a>
+                                        </div>
+                                        <!-- 赛局比分 -->
+                                        <span class="gamelist-score">
+                                            <a>0</a>
+                                            <a>:</a>
+                                            <a>0</a>
+                                        </span>
+                                        <!-- 观看直播 -->
+                                        <a class="gamelist-wait">敬请期待</a>
+                                        <!-- 比赛类型 -->
+                                        <p class="p1">2022职业联赛</p>
+                                        <!-- 赛程 -->
+                                        <p class="p2">春季赛常规赛 第五周 BO3</p>
+                                    </li>
+                                    <li class="gamelist-item swiper-slide">
+                                        <!-- 直播情况 -->
+                                        <p class="gamelist-item-topbar wait">
+                                            <i></i>
+                                            <span class="span1">未开始</span>
+                                            <span class="span3">17:00</span>
+                                            <span class="span2">2-19</span>
+                                        </p>
+                                        <!-- 战队a -->
+                                        <div class="gamelist-team-a">
+                                            <span><img src="images/BLG.png" alt=""></span>
+                                            <a>BLG平安银行</a>
+                                        </div>
+                                        <!-- 战队b -->
+                                        <div class="gamelist-team-b">
+                                            <span><img src="images/AL.png" alt=""></span>
+                                            <a>AL</a>
+                                        </div>
+                                        <!-- 赛局比分 -->
+                                        <span class="gamelist-score">
+                                            <a>0</a>
+                                            <a>:</a>
+                                            <a>0</a>
+                                        </span>
+                                        <!-- 观看直播 -->
+                                        <a class="gamelist-wait">敬请期待</a>
+                                        <!-- 比赛类型 -->
+                                        <p class="p1">2022职业联赛</p>
+                                        <!-- 赛程 -->
+                                        <p class="p2">春季赛常规赛 第五周 BO3</p>
+                                    </li>
+                                    <li class="gamelist-item swiper-slide">
+                                        <!-- 直播情况 -->
+                                        <p class="gamelist-item-topbar wait">
+                                            <i></i>
+                                            <span class="span1">未开始</span>
+                                            <span class="span3">15:00</span>
+                                            <span class="span2">2-18</span>
+                                        </p>
+                                        <!-- 战队a -->
+                                        <div class="gamelist-team-a">
+                                            <span><img src="images/RA.png" alt=""></span>
+                                            <a>RA</a>
+                                        </div>
+                                        <!-- 战队b -->
+                                        <div class="gamelist-team-b">
+                                            <span><img src="images/LGD.png" alt=""></span>
+                                            <a>杭州LGD</a>
+                                        </div>
+                                        <!-- 赛局比分 -->
+                                        <span class="gamelist-score">
+                                            <a>0</a>
+                                            <a>:</a>
+                                            <a>0</a>
+                                        </span>
+                                        <!-- 观看直播 -->
+                                        <a class="gamelist-wait">敬请期待</a>
+                                        <!-- 比赛类型 -->
+                                        <p class="p1">2022职业联赛</p>
+                                        <!-- 赛程 -->
+                                        <p class="p2">春季赛常规赛 第五周 BO3</p>
+                                    </li>
+                                    <li class="gamelist-item swiper-slide">
+                                        <!-- 直播情况 -->
+                                        <p class="gamelist-item-topbar wait">
+                                            <i></i>
+                                            <span class="span1">未开始</span>
+                                            <span class="span3">17:00</span>
+                                            <span class="span2">2-18</span>
+                                        </p>
+                                        <!-- 战队a -->
+                                        <div class="gamelist-team-a">
+                                            <span><img src="images/UP.png" alt=""></span>
+                                            <a>UP</a>
+                                        </div>
+                                        <!-- 战队b -->
+                                        <div class="gamelist-team-b">
+                                            <span><img src="images/WBG.png" alt=""></span>
+                                            <a>WBG</a>
+                                        </div>
+                                        <!-- 赛局比分 -->
+                                        <span class="gamelist-score">
+                                            <a>0</a>
+                                            <a>:</a>
+                                            <a>0</a>
+                                        </span>
+                                        <!-- 观看直播 -->
+                                        <a class="gamelist-wait">敬请期待</a>
+                                        <!-- 比赛类型 -->
+                                        <p class="p1">2022职业联赛</p>
+                                        <!-- 赛程 -->
+                                        <p class="p2">春季赛常规赛 第五周 BO3</p>
+                                    </li>
+                                    <li class="gamelist-item swiper-slide">
+                                        <!-- 直播情况 -->
+                                        <p class="gamelist-item-topbar wait">
+                                            <i></i>
+                                            <span class="span1">未开始</span>
+                                            <span class="span3">19:00</span>
+                                            <span class="span2">2-18</span>
+                                        </p>
+                                        <!-- 战队a -->
+                                        <div class="gamelist-team-a">
+                                            <span><img src="images/EDG.png" alt=""></span>
+                                            <a>UP</a>
+                                        </div>
+                                        <!-- 战队b -->
+                                        <div class="gamelist-team-b">
+                                            <span><img src="images/FPX.png" alt=""></span>
+                                            <a>FPX</a>
+                                        </div>
+                                        <!-- 赛局比分 -->
+                                        <span class="gamelist-score">
+                                            <a>0</a>
+                                            <a>:</a>
+                                            <a>0</a>
+                                        </span>
+                                        <!-- 观看直播 -->
+                                        <a class="gamelist-wait">敬请期待</a>
+                                        <!-- 比赛类型 -->
+                                        <p class="p1">2022职业联赛</p>
+                                        <!-- 赛程 -->
+                                        <p class="p2">春季赛常规赛 第五周 BO3</p>
+                                    </li>
+                                    <li class="gamelist-item swiper-slide">
+                                        <!-- 直播情况 -->
+                                        <p class="gamelist-item-topbar wait">
+                                            <i></i>
+                                            <span class="span1">未开始</span>
+                                            <span class="span3">15:00</span>
+                                            <span class="span2">2-19</span>
+                                        </p>
+                                        <!-- 战队a -->
+                                        <div class="gamelist-team-a">
+                                            <span><img src="images/OMG.png" alt=""></span>
+                                            <a>OMG</a>
+                                        </div>
+                                        <!-- 战队b -->
+                                        <div class="gamelist-team-b">
+                                            <span><img src="images/WE.png" alt=""></span>
+                                            <a>西安WE</a>
+                                        </div>
+                                        <!-- 赛局比分 -->
+                                        <span class="gamelist-score">
+                                            <a>0</a>
+                                            <a>:</a>
+                                            <a>0</a>
+                                        </span>
+                                        <!-- 观看直播 -->
+                                        <a class="gamelist-wait">敬请期待</a>
+                                        <!-- 比赛类型 -->
+                                        <p class="p1">2022职业联赛</p>
+                                        <!-- 赛程 -->
+                                        <p class="p2">春季赛常规赛 第五周 BO3</p>
+                                    </li>
+                                    <li class="gamelist-item swiper-slide">
+                                        <!-- 直播情况 -->
+                                        <p class="gamelist-item-topbar wait">
+                                            <i></i>
+                                            <span class="span1">未开始</span>
+                                            <span class="span3">17:00</span>
+                                            <span class="span2">2-19</span>
+                                        </p>
+                                        <!-- 战队a -->
+                                        <div class="gamelist-team-a">
+                                            <span><img src="images/BLG.png" alt=""></span>
+                                            <a>BLG平安银行</a>
+                                        </div>
+                                        <!-- 战队b -->
+                                        <div class="gamelist-team-b">
+                                            <span><img src="images/AL.png" alt=""></span>
+                                            <a>AL</a>
+                                        </div>
+                                        <!-- 赛局比分 -->
+                                        <span class="gamelist-score">
+                                            <a>0</a>
+                                            <a>:</a>
+                                            <a>0</a>
+                                        </span>
+                                        <!-- 观看直播 -->
+                                        <a class="gamelist-wait">敬请期待</a>
+                                        <!-- 比赛类型 -->
+                                        <p class="p1">2022职业联赛</p>
+                                        <!-- 赛程 -->
+                                        <p class="p2">春季赛常规赛 第五周 BO3</p>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <a href="javascript:" class="icon-left-arrow"></a>
+                            <a href="javascript:" class="icon-right-arrow"></a>
+                        </div>
+                        <!-- 每周最佳阵容 -->
+                        <div class="power-rank">
+                            <div class="part-top-tab">
+                                <h2 class="part-h2-title">每周最佳阵容</h2>
+                            </div>
+                            <ul class="LPL_R_power-rank-list LPL_R_best_player_C">
+                                <li class="LPL_R_player-item">
+                                    <div class="LPL_R_pic-player">
+                                        <img src="images/Bin.png" alt="Bin" class="player">
+                                        <a class="LPL_R_power-rank-role">
+                                            <i class="p-top"></i>
+                                        </a>
+                                        <img src="images/rng.png" alt="RNG" class="player-team-logo">
+                                    </div>
+                                    <p class="player-name">Bin</p>
+                                </li>
+                                <li class="LPL_R_player-item">
+                                    <div class="LPL_R_pic-player">
+                                        <img src="images/WeiWei.png" alt="WeiWei" class="player">
+                                        <a class="LPL_R_power-rank-role">
+                                            <i class="p-jungle"></i>
+                                        </a>
+                                        <img src="images/BLG.png" alt="BLG平安银行" class="player-team-logo">
+                                    </div>
+                                    <p class="player-name">Weiwei</p>
+                                </li>
+                                <li class="LPL_R_player-item">
+                                    <div class="LPL_R_pic-player">
+                                        <img src="images/Xiaohu.png" alt="Xiaohu" class="player">
+                                        <a class="LPL_R_power-rank-role">
+                                            <i class="p-mid"></i>
+                                        </a>
+                                        <img src="images/rng.png" alt="RNG" class="player-team-logo">
+                                    </div>
+                                    <p class="player-name">Xiaohu</p>
+                                </li>
+                                <li class="LPL_R_player-item">
+                                    <div class="LPL_R_pic-player">
+                                        <img src="images/Light.png" alt="Light" class="player">
+                                        <a class="LPL_R_power-rank-role">
+                                            <i class="p-bottom"></i>
+                                        </a>
+                                        <img src="images/Lng.png" alt="LNG" class="player-team-logo">
+                                    </div>
+                                    <p class="player-name">Light</p>
+                                </li>
+                                <li class="LPL_R_player-item">
+                                    <div class="LPL_R_pic-player">
+                                        <img src="images/ON.png" alt="ON" class="player">
+                                        <a class="LPL_R_power-rank-role">
+                                            <i class="p-sup"></i>
+                                        </a>
+                                        <img src="images/WBG.png" alt="WBG" class="player-team-logo">
+                                    </div>
+                                    <p class="player-name">ON</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- 积分榜 -->
+                        <div class="score-rank">
+                            <div class="part-top-tab">
+                                <h2 class="part-h2-title">积分榜</h2>
+                            </div>
+                            <div class="score-rank-content">
+                                <h4 class="score-rank-list-title">
+                                    <a class="a-1">排名</a>
+                                    <a class="a-2">俱乐部</a>
+                                    <a class="a-3">胜负</a>
+                                    <a class="a-4">积分</a>
+                                </h4>
+                                <div
+                                    class="score-rank-list-container swiper-container LPL_R_score_rank_container swiper-free-mode">
+                                    <div class="swiper-wrapper">
+                                        <ul
+                                            class="score-rank-list swiper-slide swiper-slide-visible swiper-slide-active">
+                                            <li>
+                                                <a class="a-1 n1">1</a>
+                                                <span class="a-2">
+                                                    <img src="images/Lng.png" alt="">
+                                                    苏州LNG
+                                                </span>
+                                                <div class="a-3">7/0</div>
+                                                <div class="a-4">7</div>
+                                            </li>
+                                            <li>
+                                                <a class="a-1 n1">2</a>
+                                                <span class="a-2">
+                                                    <img src="images/WBG.png" alt="">
+                                                    WBG
+                                                </span>
+                                                <div class="a-3">6/1</div>
+                                                <div class="a-4">6</div>
+                                            </li>
+                                            <li>
+                                                <a class="a-1 n1">3</a>
+                                                <span class="a-2">
+                                                    <img src="images/V5.png" alt="">
+                                                    深圳V5
+                                                </span>
+                                                <div class="a-3">6/1</div>
+                                                <div class="a-4">6</div>
+                                            </li>
+                                            <li>
+                                                <a class="a-1 n1">4</a>
+                                                <span class="a-2">
+                                                    <img src="images/rng.png" alt="">
+                                                    RNG
+                                                </span>
+                                                <div class="a-3">6/2</div>
+                                                <div class="a-4">6</div>
+                                            </li>
+                                            <li>
+                                                <a class="a-1 n1">5</a>
+                                                <span class="a-2">
+                                                    <img src="images/EDG.png" alt="">
+                                                    EDG
+                                                </span>
+                                                <div class="a-3">5/1</div>
+                                                <div class="a-4">5</div>
+                                            </li>
+                                            <li>
+                                                <a class="a-1 n1">6</a>
+                                                <span class="a-2">
+                                                    <img src="images/JDG.png" alt="">
+                                                    北京JDG
+                                                </span>
+                                                <div class="a-3">4/2</div>
+                                                <div class="a-4">4</div>
+                                            </li>
+                                            <li>
+                                                <a class="a-1 n1">7</a>
+                                                <span class="a-2">
+                                                    <img src="images/BLG.png" alt="">
+                                                    BLG平安银行
+                                                </span>
+                                                <div class="a-3">4/3</div>
+                                                <div class="a-4">4</div>
+                                            </li>
+                                            <li>
+                                                <a class="a-1 n1">8</a>
+                                                <span class="a-2">
+                                                    <img src="images/FPX.png" alt="">
+                                                    FPX
+                                                </span>
+                                                <div class="a-3">4/3</div>
+                                                <div class="a-4">4</div>
+                                            </li>
+                                            <li>
+                                                <a class="a-1 n1">9</a>
+                                                <span class="a-2">
+                                                    <img src="images/OMG.png" alt="">
+                                                    OMG
+                                                </span>
+                                                <div class="a-3">4/5</div>
+                                                <div class="a-4">4</div>
+                                            </li>
+                                            <li>
+                                                <a class="a-1 n1">10</a>
+                                                <span class="a-2">
+                                                    <img src="images/TES.png" alt="">
+                                                    TES
+                                                </span>
+                                                <div class="a-3">3/4</div>
+                                                <div class="a-4">3</div>
+                                            </li>
+                                            <li>
+                                                <a class="a-1 n1">11</a>
+                                                <span class="a-2">
+                                                    <img src="images/IG.png" alt="">
+                                                    IG
+                                                </span>
+                                                <div class="a-3">3/5</div>
+                                                <div class="a-4">3</div>
+                                            </li>
+                                            <li>
+                                                <a class="a-1 n1">12</a>
+                                                <span class="a-2">
+                                                    <img src="images/AL.png" alt="">
+                                                    AL
+                                                </span>
+                                                <div class="a-3">3/6</div>
+                                                <div class="a-4">3</div>
+                                            </li>
+                                            <li>
+                                                <a class="a-1 n1">13</a>
+                                                <span class="a-2">
+                                                    <img src="images/UP.png" alt="">
+                                                    UP
+                                                </span>
+                                                <div class="a-3">2/5</div>
+                                                <div class="a-4">2</div>
+                                            </li>
+                                            <li>
+                                                <a class="a-1 n1">14</a>
+                                                <span class="a-2">
+                                                    <img src="images/RA.png" alt="">
+                                                    RA
+                                                </span>
+                                                <div class="a-3">1/5</div>
+                                                <div class="a-4">1</div>
+                                            </li>
+                                            <li>
+                                                <a class="a-1 n1">15</a>
+                                                <span class="a-2">
+                                                    <img src="images/LGD.png" alt="">
+                                                    杭州LGD
+                                                </span>
+                                                <div class="a-3">1/5</div>
+                                                <div class="a-4">1</div>
+                                            </li>
+                                            <li>
+                                                <a class="a-1 n1">16</a>
+                                                <span class="a-2">
+                                                    <img src="images/WE.png" alt="">
+                                                    西安WE
+                                                </span>
+                                                <div class="a-3">1/5</div>
+                                                <div class="a-4">1</div>
+                                            </li>
+                                            <li>
+                                                <a class="a-1 n1">16</a>
+                                                <span class="a-2">
+                                                    <img src="images/TT.png" alt="">
+                                                    TT
+                                                </span>
+                                                <div class="a-3">1/5</div>
+                                                <div class="a-4">1</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- <div class="scrollbar">
+                                        <div class="swiper-scrollbar-drag swiper-scrollbar-cursor-drag"></div>
+                                    </div> -->
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- part4 -->
+        <div class="g-wrap-championlist">
+            <div class="g-wrap indexpart-show mmt">
+                <div class="part-top-tab">
+                    <div class="part-h2-title">LOL旋转木马</div>
+                </div>
+                <div id="box">
+                    <img src="images/hot01.jpg" alt="" class="muma">
+                    <img src="images/hot02.jpg" alt="" class="muma">
+                    <img src="images/hot03.jpg" alt="" class="muma">
+                    <img src="images/hot04.jpg" alt="" class="muma">
+                    <img src="images/hot05.jpg" alt="" class="muma">
+                    <img src="images/hot06.jpg" alt="" class="muma">
+                    <img src="images/hot07.jpg" alt="" class="muma">
+                    <img src="images/hot08.jpg" alt="" class="muma">
+                    <img src="images/hot09.jpg" alt="" class="muma">
+                </div>
+            </div>
+
+        </div>
+        <!-- part5 -->
+        <div class="g-wrap-fanart">
+            <div class="part-top-tab">
+                <div class="part-h2-title">LOL手风琴</div>
+            </div>
+            <header class="sfq">
+                <ul class="menu-contain">
+                    <li>
+                        <div class="left-box ys">
+                            <div class="title">亚索</div>
+                            <div class="desc">
+                                亚索是一个百折不屈的艾欧尼亚人，也是一名身手敏捷的御风剑客。这位生性自负的年轻人，被误认为杀害长老的凶手——由于无法证明自己的清白，他出于自卫而杀死了自己的哥哥。虽然长老死亡的真相已然大白，亚索还是无法原谅自己的所作所为。他在家园的土地上流浪，只有疾风指引着他的剑刃。
+                            </div>
+                            <button type="button">了解更多</button>
+                        </div>
+                        <div class="right-box">
+                            <img src="images/ys.png" alt="">
+                        </div>
+                    </li>
+                    <li class="active">
+                        <div class="left-box wsjj">
+                            <div class="title">无双剑姬</div>
+                            <div class="desc">
+                                菲奥娜是全瓦洛兰最可怕的决斗家。她以雷厉风行、巧腕明政闻名于世，同样著名的还有她舞弄自己佩剑的极速。菲奥娜出生在德玛西亚的劳伦特家族，在一场险些令家族灭亡的丑闻风波过后，她从父亲的手中接管了家业。如今她致力于重振家族荣耀，让劳伦特这个名字重回德玛西亚名望贵族之列。
+                            </div>
+                            <button type="button">了解更多</button>
+                        </div>
+                        <div class="right-box">
+                            <img src="images/jj.png" alt="">
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="left-box jks">
+                            <div class="title">暴走萝莉</div>
+                            <div class="desc">
+                                神经狂躁、冲动任性、劣迹斑斑……金克丝出身自祖安，生来就爱不计后果地大搞破坏。她就是一座人形自走军火库，所经之处必定会留下夺目的火光和震耳的爆炸。金克丝最讨厌无聊，所以不管她去到哪里，混乱和骚动就会如期而至，这就是她留下的“到此一游”。
+                            </div>
+                            <button type="button">了解更多</button>
+                        </div>
+                        <div class="right-box">
+                            <img src="images/jks.png" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left-box ys">
+                            <div class="title">暗夜猎手</div>
+                            <div class="desc">
+                                肖娜·薇恩是一位无情的德玛西亚怪物猎手。终其一生，她都在寻找杀害她全家的恶魔。她的手臂上装着十字弩，心中燃烧着熊熊的复仇怒火，从暗影中射出圣银弩箭的风暴，薇恩只有在杀死那些为黑暗魔法所控制的人和生物时，才能真正感到愉悦。
+                            </div>
+                            <button type="button">了解更多</button>
+                        </div>
+                        <div class="right-box">
+                            <img src="images/vn.png" alt="">
+                        </div>
+                    </li>
+                </ul>
+            </header>
+        </div>
+    </div>
+
+    <!-- 底部footer -->
+    <div class="foot-wrap" id="footWrap">
+        <div class="foot_inner">
+            <div class="foot foot_dark">
+                <div class="foot_cpright">
+                    <div class="foot_lefts">
+                        <a href="javascript:;" class="foot_ieg_logo" title="腾讯互动娱乐">腾讯互动娱乐</a>
+                        <span class="foot_left logo-riot" title="RIOT">riot</span>
+                    </div>
+                    <ul class="foot_links">
+                        <li class="link_map">
+                            <a href="javascript:;">腾讯互动娱乐</a>
+                            <span class="f_line">|</span>
+                            <a href="javascript:;">服务条款</a>
+                            <span class="f_line">|</span>
+                            <a href="javascript:;">隐私保护指引</a>
+                            <span class="f_line">|</span>
+                            <a href="javascript:;">儿童隐私保护指引</a>
+                            <span class="f_line">|</span>
+                            <a href="javascript:;">腾讯游戏招聘</a>
+                            <span class="f_line">|</span>
+                            <a href="javascript:;">腾讯游戏客服</a>
+                            <span class="f_line">|</span>
+                            <a href="javascript:;">游戏列表</a>
+                            <span class="f_line">|</span>
+                            <a href="javascript:;">广告服务及商务合作</a>
+                        </li>
+                        <li class="copyright_zh">
+                            <a href="javascript:;">腾讯公司版权所有</a>
+                            <a href="javascript:;">网络游戏行业防沉迷自律公约</a>
+                        </li>
+                        <li class="copyright_en">
+                            <p class="copyright_txt">COPYRIGHT © 1998 - 2022 TENCENT. ALL RIGHTS RESERVED.</p>
+                            <p class="copyright_txt">COPYRIGHT © 2012 Riot Games,Inc. ALL RIGHTS RESERVED.</p>
+                        </li>
+                        <li class="limit_age">本网络游戏适合16+岁的用户使用；为了您的健康，请合理控制游戏时间。</li>
+                        <li class="copyright_public">
+                            <a href="javascripy:;" title="深圳市市场监督管理局企业主体身份公示">
+                                <img src="images/gswj.png" alt="深圳市市场监督管理局企业主体身份公示">
+                                工商网监电子标识
+                            </a>
+                            <span class="f_line">|</span>
+                            <a href="javascripy:;">粤网文[2020]3396-195号</a>
+                            <span class="f_line">|</span>
+                            <a href="javascripy:;">（署）网出证（粤）字第054号</a>
+                        </li>
+                        <li class="copyright_private">
+                            批准文号：新出审字[2011]310号
+                            <span class="f_line">|</span>
+                            文网进字[2011] 004号
+                            <span class="f_line">|</span>
+                            出版物号：ISBN 978-7-89989-145-2
+                            <span class="f_line">|</span>
+                            全国文化市场统一举报电话：12318
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 侧边栏 -->
+    <div class="rightnav-bar show">
+        <ul>
+            <li class="rightnav-bar-li rn-rmhd">
+                <span>
+                    <i></i>
+                </span>
+                <a>热门活动</a>
+            </li>
+            <li class="rightnav-bar-li rn-spzx">
+                <span>
+                    <i></i>
+                </span>
+                <a>视频中心</a>
+            </li>
+            <li class="rightnav-bar-li rn-sszx">
+                <span>
+                    <i></i>
+                </span>
+                <a>赛事中心</a>
+            </li>
+            <li class="rightnav-bar-li rn-yxtj">
+                <span>
+                    <i></i>
+                </span>
+                <a>旋转木马</a>
+            </li>
+            <li class="rightnav-bar-li rn-fanart">
+                <span>
+                    <i></i>
+                </span>
+                <a>手风琴</a>
+            </li>
+            <li class="rightnav-bar-li rn-polo">
+                <span>
+                    <i></i>
+                </span>
+                <a>顶部</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 1230px;
+    overflow-anchor: none;
+    background-color: #eee;
+    *zoom: 1
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font: 12px/1.5 tahoma, '\5FAE\8F6F\96C5\9ED1', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%
+}
+
+b,
+em {
+    font-style: normal
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+li {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+img {
+    border: 0
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    outline: 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+.btn-flashmen,
+.btn-play-1>a,
+.btn-play-1>i,
+.g-wrap-championlist .part-tab-title>li.selected:after,
+.g-wrap-championlist .part-tab-title>li:after,
+.g-wrap-championlist .part-tab-title>li:hover:after,
+.herf-type-0,
+.hotprogram-list-left,
+.hotprogram-list-right,
+.hover-border-1,
+.hover-border-2,
+.href-bg-0,
+.href-bg-1,
+.href-partner,
+.icon-666,
+.icon-666-on,
+.icon-bbs-1,
+.icon-fanart-1,
+.icon-gl-1,
+.icon-left-arrow,
+.icon-play-0,
+.icon-play-1,
+.icon-right-arrow,
+.icon-search,
+.icon-spzx-1,
+.icon-ss-1,
+.icon-sszx-1,
+.icon-xx,
+.icon-zsj,
+.index-spr,
+.inline-icon-0-left,
+.inline-icon-0-right,
+.inline-icon-1,
+.innerhover-border .hover-border-1,
+.innerhover-border .hover-border-2,
+.innerhover-bottom .p2>a.on>.icon-666,
+.innerhover-bottom .p2>a:hover>.icon-666,
+.m-champion-list-container .champion-item:hover .hover-icon:after,
+.m-new-champion-one .inner-hover>.border,
+.m-new-champion-one .inner-hover>.inner-hover-href,
+.more-hotprogram,
+.more-href-bg,
+.more-newchampion-info,
+.new-tab-content-ul>.first,
+.news-first-bg,
+.tab-title-selected-1,
+.tab-title-selected-1-off,
+.week-free-a,
+.week-free-hover>.arrow,
+.wfc-href-bg {
+    background-image: url(../images/index-spr.png);
+    background-size: 638px 572px;
+    background-repeat: no-repeat;
+}
+
+#change-batche span:hover .icon-hyp,
+#change-batche span:hover .icon-page,
+.act-item>.innerhover-border .hover-border-1,
+.comm-spr,
+.hover-border-1,
+.icon-101,
+.icon-arrow-2,
+.icon-fanart,
+.icon-fanart-on,
+.icon-fhcx,
+.icon-gift,
+.icon-home,
+.icon-hot-1,
+.icon-hotact,
+.icon-hotact-on,
+.icon-hyp,
+.icon-hyp-hover,
+.icon-kh,
+.icon-new-1,
+.icon-page,
+.icon-page-hover,
+.icon-polo,
+.icon-rp,
+.icon-spzx,
+.icon-spzx-on,
+.icon-sszx,
+.icon-sszx-on,
+.icon-wjsq,
+.icon-wxbd,
+.icon-xgzd,
+.icon-yxtj,
+.icon-yxtj-on,
+.icon-yxzl,
+.icon-yz,
+.icon-zhiyin,
+.more-arrow,
+.more-arrow-1,
+.more-arrow-2,
+.more-arrow-3,
+.rn-fanart i,
+.rn-fanart.selected i,
+.rn-fanart:hover i,
+.rn-polo i,
+.rn-rmhd i,
+.rn-rmhd.selected i,
+.rn-rmhd:hover i,
+.rn-spzx i,
+.rn-spzx.selected i,
+.rn-spzx:hover i,
+.rn-sszx i,
+.rn-sszx.selected i,
+.rn-sszx:hover i,
+.rn-yxtj i,
+.rn-yxtj.selected i,
+.rn-yxtj:hover i,
+.spage-tab-title>li:after,
+.tab-title-selected,
+.icon-tft {
+    background-image: url(../images/comm-spr.png);
+    background-size: 393px 200px;
+    background-repeat: no-repeat;
+}
+
+.icon-101,
+.icon-666,
+.icon-ax,
+.icon-fhcx,
+.icon-kh,
+.icon-wjsq,
+.icon-wxbd,
+.icon-xgzd,
+.icon-yxzl,
+.icon-yz,
+.icon-tft {
+    display: inline-block;
+    vertical-align: middle;
+    margin: -2px 4px 0 4px;
+}
+
+#footWrap .foot_ieg_logo,
+.act-link,
+.comm-avatar-border,
+.comm-icon-phone,
+.comm-icon-search,
+.head-app-hover,
+.head-userinfo-avatar>span,
+.icon-dsj,
+.icon-hot,
+.icon-new,
+.icon-xx-1,
+.logined-top .select-area:after,
+.logo-riot,
+.logo-tencentgame,
+.top-act-link,
+.topfoot-spr,
+.zm-hover-bg {
+    background-image: url(../images/topfoot-spr.png);
+    background-size: 405px 178px;
+    background-repeat: no-repeat;
+}
+
+.foot {
+    background: #fff;
+    color: #000;
+    font: 12px/20px "微软雅黑", "宋体";
+    min-width: 1050px;
+    margin: 0 auto;
+    text-align: left;
+}
